@@ -62,6 +62,14 @@ int main()
     list->printList();
     cout<<areEqual(list,vector<int> {1,0})<<endl;
     cout<<"======================================="<<endl;
+    cout<<"test case 3"<<endl;
+    try{
+        list = new LinkedList(vector<int>{});
+    }
+    catch(invalid_argument& e){
+        cout<<e.what()<<endl;
+    }
+    cout<<"======================================="<<endl;
     cout<<"test case 4"<<endl;
     list = new LinkedList(-1);
     list->push_back(-2);
