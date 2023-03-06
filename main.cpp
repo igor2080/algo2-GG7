@@ -2,6 +2,19 @@
 #include <vector>
 #include "LinkedList.cpp"
 using namespace std;
+/*******************************************
+
+Igor Alyeksyeyenko, ia22016
+
+GG7. Create function to delete from list all elements with bigger value than previous element (before any element is deleted).
+
+Linked List version
+
+Unit test version
+
+Program created: 2023/03/06
+
+*******************************************/
 
 string areEqual(LinkedList* expected, LinkedList actual)
 {
